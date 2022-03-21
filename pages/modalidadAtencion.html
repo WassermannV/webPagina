@@ -10,52 +10,92 @@
     <link rel="shortcut icon" href="../img/favicon.png">
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-light bg-light fixed-top">
-          <div class="container-fluid">
-            <img src="../img/logo.png" width="45px" height="45px" alt="logo">
-            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-              <div class="offcanvas-header">
-                <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
-                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-              </div>
-              <div class="offcanvas-body">
-                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="../pages/about.html">About</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="../pages/modalidadAtencion.html">Modalidad de atencion</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="../pages/preguntasFrecuentes.html">Preguntas frecuentes</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="../pages/contacto.html">Contacto</a>
-                  </li>
-    
-                </ul>
-               
-              </div>
-            </div>
+  <header>
+    <nav class="navbar navbar-light fixed-top bg-secondary" style="opacity: 0.8;">
+      <div class="container-fluid">
+        <img src="../img/favicon.png" width="45px" height="45px" alt="logo">
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
           </div>
-        </nav>
-    </header>
+          <div class="offcanvas-body" style= " background-color:gray">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../index.html" style="color: white;" >Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/about.html" style="color: white;" >About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/modalidadAtencion.html" style="color: white;" >Modalidad de atencion</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/preguntasFrecuentes.html" style="color: white;" >Preguntas frecuentes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/contacto.html" style="color: white;" >Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>  
+  </header>
+  <main>
+    <div class="container-fluid" style="text-align: center; padding: 3rem;">
+      <div class="row mt-3 pt-2">
+        <h1> Modalidad de atencion </h1>
+        <h2> En este espacio podras observar las distintas maneras de tener la sesion psicologica. Elegi la que te quede mas comoda! </h2>
+      </div> 
+    </div>
 
+    <div class="container-fluid" style="display:flex; gap: 3rem; justify-content: space-between; border-radius: 4px;" >  
+      <div class="card" style="width: 20rem; ">
+        <img src="../img/consultorio.jpg" class="card-img-top" style="background-color: lightgray; padding: 1rem" alt="consultorio">
+        <div class="card-body">
+          <p class="card-text"><strong> Atencion en consultorio: </strong> es la modalidad de atencion mas tradicional y antigua. Consiste en asistir a las sesiones de psicologia de manera presencial en la direccion donde se encuentra el consultorio, en un dia y horario determinado.</p>
+          <span> Duracion aproximada: 45 minutos</span>
+        </div>
+      </div>
+      <div class="card" style="width: 20rem; ">
+          <img src="../img/atencionVirtual1.jpg" class="card-img-top" style="background-color: lightgray; padding: 1rem;" alt="virtual">
+        <div class="card-body">
+          <p class="card-text"><strong> Atencion virtual: </strong> es una modalidad que se puso muy de moda luego de la pandemia por Covid-19. Consiste en sesiones por videollamadas en la plataforma elegida por el paciente y/o la psicologa, en un dia y horarios determinado. </p>
+          <span> Duracion aproximada: 45 minutos </span>
+        </div>
+      </div>
+      <div class="card" style="width: 20rem; ">
+        <img src="../img/tlefono.jpg" class="card-img-top" style="background-color: lightgray; padding: 1rem;" alt="llamada">
+        <div class="card-body">
+          <p class="card-text"> <strong> Llamada telefonica: </strong> otra manera de tener la sesion es a traves de una llamada telefonica. Esta modalidad esta pensada para aquellos que no les agrada hacer videollamadas y no pueden asistir presencial. Dias y horarios determinado </p>
+        <span> Duracion aproximada: 30 minutos</span>
+        </div>
+      </div>
+    </div>    
+  </main>
+  <footer>
+    <div class="container__footer" class="container-fluid"style="background-color: gray; text-align: center; margin: auto; padding: 1rem 1rem 1rem 1rem; height: auto;" >
+      <h3> TE ESPERO! </h3>
+      <a href="https://www.facebook.com/" class="sm-button"target="_blank"> <img src="../img/fbVector.png" width="20px" alt="fb">
+      <a href="https://www.instagram.com/" class="sm-button"target="_blank"><img src="../img/instagramVector.png" width= "20px" alt="instagram">
+      <a href="https://www.linkedin.com/in/vir-wassermann/" class="sm-button"target="_blank"><img src="../img/linkedinVector.png" width="20px" alt="linkedin">  
+      <br>
+      <p class="copyright"> © Copyright 2022 |Virginia Wassermann </p>
+      </div>
+
+  </footer>
     
     
     
 
 
 
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
     
 </body>
 </html>

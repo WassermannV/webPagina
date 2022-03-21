@@ -15,9 +15,9 @@
 
 <body>
   <header>
-    <nav class="navbar navbar-light fixed-top navbar-modificada">
+    <nav class="navbar navbar-light fixed-top bg-secondary" style="opacity: 0.8;">
       <div class="container-fluid">
-        <img src="./img/logo.png" width="45px" height="45px" alt="logo">
+        <img src="./img/favicon.png" width="45px" height="45px" alt="logo">
         <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -26,22 +26,22 @@
             <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
             <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
           </div>
-          <div class="offcanvas-body">
+          <div class="offcanvas-body" style= " background-color:gray">
             <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                <a class="nav-link active" aria-current="page" href="./index.html" style="color: white;">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./pages/about.html">About</a>
+                <a class="nav-link" href="./pages/about.html" style="color: white;" >About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./pages/modalidadAtencion.html">Modalidad de atencion</a>
+                <a class="nav-link" href="./pages/modalidadAtencion.html"style="color: white;" >Modalidad de atencion</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./pages/preguntasFrecuentes.html">Preguntas frecuentes</a>
+                <a class="nav-link" href="./pages/preguntasFrecuentes.html" style="color: white;" >Preguntas frecuentes</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+                <a class="nav-link" href="./pages/contacto.html" style="color: white;" >Contacto</a>
               </li>
             </ul>
           </div>
@@ -52,12 +52,12 @@
     
    
   <main>
-    <div class="container mt-3 pt-2">
+    <div class="container pt-1">
       <div class="row">
-        <div class="rowPrincipal1 col- ">
-          <h1> HOLA! </h1>
+        <div class="rowPrincipal1 col- mt-5">
+          <h1 class="m15"> HOLA! </h1>
         </div>  
-        <div class="rowPrincipal2 col-lg-12 col-md-8 col-">
+        <div class="rowPrincipal2 col-lg-12 col-md-8 col- pt-3">
           <h2> Te invito a recorrer mi sitio web. Podras encontrar las distintas modalidades de atencion, preguntas frecuentes que hacen los pacientes antes de empezar y/o durante la primera sesion y por ultimo, las difernetes maneras de contactarme si te sentis con ganas de tener tu espacio. Te espero!</h2>
         </div> 
           
@@ -65,7 +65,7 @@
     </div>
 
     <div class="containerDos pt-3 ">
-      <div class="row">
+      <div class="row" >
         <div class="img1 col-lg-4 col-md-3 col- pt-2" style="background-color: lightpink;">   
            <img src="./img/helado1.jpg" class="img-fluid" alt="helado">
         </div>
@@ -85,12 +85,15 @@
   </main>
 
   <footer>
-      <div class="container__footer col-" class="container-fluid" >
-        <h3> TE ESPERO! </h3>
-        <a href="./pages/contacto.html"> contactame</a>
-
-      </div>
-
+    <div class="container__footer" class="container-fluid" >
+      <h3> TE ESPERO! </h3>
+      
+      <a href="https://www.facebook.com/" class="sm-button"target="_blank"> <img src="./img/fbVector.png" width="20px" alt="fb">
+      <a href="https://www.instagram.com/" class="sm-button"target="_blank"><img src="./img/instagramVector.png" width="20px" alt="instagram">
+      <a href="https://www.linkedin.com/in/vir-wassermann/" class="sm-button"target="_blank"><img src="../img/linkedinVector.png" width="20px" alt="linkedin">
+      <br>
+      <p class="copyright"> © Copyright 2022 |Virginia Wassermann </p>
+    </div>
 
 
 

@@ -6,9 +6,7 @@
 
 /*INDEX*/
 
-.navbar-modificada {
-    background-color: lightgrey;
-}
+
 .rowPrincipal1{
     display: flex;
     align-items: center;
@@ -35,13 +33,15 @@
     margin: 2rem 2rem 2rem 2rem ;
     gap: 1rem;
 }
+
 .container__footer {
-    display: list-item;
-    background-color: lightgray;
+    background-color: gray;
     text-align: center;
-    margin: 2rem;
+    margin: auto;
     padding: 1rem 1rem 1rem 1rem;
-    height: 100px;
+    height: auto;
+    text-decoration: none;
+    
 }
 
 
@@ -65,3 +65,12 @@
 .container2{
     display: flex;
 }
+
+.rowContacto3{
+    margin-left: 2rem;
+}
+
+/*PREG. FRECUENTES*/
+
+
+/*MODALIDAD DE ATENCION*/

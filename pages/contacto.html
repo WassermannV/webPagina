@@ -11,9 +11,9 @@
 </head>
 <body>
   <header>
-    <nav class="navbar navbar-light bg-light fixed-top">
+    <nav class="navbar navbar-light fixed-top bg-secondary" style="opacity: 0.8;">
       <div class="container-fluid">
-        <img src="../img/logo.png" width="45px" height="45px" alt="logo">
+        <img src="../img/favicon.png" width="45px" height="45px" alt="logo">
         <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -22,22 +22,22 @@
             <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
             <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
           </div>
-          <div class="offcanvas-body">
+          <div class="offcanvas-body" style= " background-color:gray">
             <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                <a class="nav-link active" aria-current="page" href="../index.html" style="color: white;" >Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="../pages/about.html">About</a>
+                <a class="nav-link" href="../pages/about.html" style="color: white;" >About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="../pages/modalidadAtencion.html">Modalidad de atencion</a>
+                <a class="nav-link" href="../pages/modalidadAtencion.html" style="color: white;" >Modalidad de atencion</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="../pages/preguntasFrecuentes.html">Preguntas frecuentes</a>
+                <a class="nav-link" href="../pages/preguntasFrecuentes.html" style="color: white;" >Preguntas frecuentes</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+                <a class="nav-link" href="../pages/contacto.html" style="color: white;" >Contacto</a>
               </li>
     
             </ul>
@@ -60,14 +60,13 @@
       </div>
     </div>
 
-    <div class="container col-lg-12 col-" style="background-image: url(../img/tlefono.jpg);" style="display: inline; align-items: center; text-align: center;"> 
-      <div class="row" style="gap: 10px" >
-        <div class="rowContacto3 col-lg-3 col-md-6 col- mx-2 mt-2 pt-3" style="background-color: white; opacity: 0.8; justify-content: space-between;">       
-          <u>
-            <li> Whastapp:  (0297) - 154373719 </li>
-            <li> Mail: virwassermann@gmail.com </li>
-          </u>
-
+    <div class="container col-lg-12 col-"  style="background-image: url(../img/pexels-cottonbro-10600770.jpg); height: auto;" style="display: flex; align-items: center; text-align: center;" > 
+      <div class="row" style="gap: 5px; height: auto; margin-top: 2rem; padding: 2rem;" >
+        <div class="rowContacto3 col-lg-3 col-md-6 col- mt-2 pt-3" style="background-color: white; opacity: 0.8; text-align: center;text-decoration: none;">       
+          <h2> Whatsapp </h2> <a href="https://api.whatsapp.com/send?phone=+54(0297)154302521" class="other-links"><img src="../img/whatsapp-vec.png" alt="whatsapp" style="border-radius: 4px;" height="60px" width="60px"></a>
+          <br>
+          <br>
+          <h2> Mail </h2> <a href="https://www.gmail.com" class="other-links"><img src="../img/mailVectores.png" alt="mail" style="border-radius: 4px;" height="60px" width="60px"></a>
         </div>
         <br>
 
@@ -80,6 +79,7 @@
           <div class="mb-3 pt-3">
             <label for="exampleFormControlTextarea1" class="form-label">Texto</label>
             <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            <button type="button" class="btn btn-secondary mt-2"> Enviar </button>
           </div>  
 
           
@@ -87,7 +87,7 @@
         <br>
         <div class="rowContacto5 col-lg-4 col-md-6 col- mx-2 mt-2 pt-3" style="background-color: white; opacity: 0.8; text-align: center;">
           <h3> Tambien podes acercarte al consultorio ubicado en "Centro Sonrisas</h3>
-          <iframe class="rowMap col-" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2777.902039487806!2d-67.52443368461867!3d-45.873269444140334!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xbde454c4c7846d3f%3A0x49438927ab917fc9!2sAtahualpa%20Yupanqui%20756%2C%20U9002KKP%20Comodoro%20Rivadavia%2C%20Chubut!5e0!3m2!1ses-419!2sar!4v1647559407195!5m2!1ses-419!2sar" width="auto" height="auto" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          <iframe class="container-fluid" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2777.902039487806!2d-67.52443368461867!3d-45.873269444140334!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xbde454c4c7846d3f%3A0x49438927ab917fc9!2sAtahualpa%20Yupanqui%20756%2C%20U9002KKP%20Comodoro%20Rivadavia%2C%20Chubut!5e0!3m2!1ses-419!2sar!4v1647559407195!5m2!1ses-419!2sar" width="auto" height="auto" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
         </div>   
                   
       </div>
@@ -108,13 +108,15 @@
 
   </main>
   <footer>
-    <div class="container__footer col-" class="container-fluid" style="background-color: blue; text-align: center;">
+    <div class="container__footer" class="container-fluid"style="background-color: gray; text-align: center; margin: auto; padding: 1rem 1rem 1rem 1rem; height: auto;" >
       <h3> TE ESPERO! </h3>
-      <a href="../pages/contacto.html"> contactame</a>
-  
-    </div>
-  
-   
+      <a href="https://www.facebook.com/" class="sm-button"target="_blank"> <img src="../img/fbVector.png" width="20px" alt="fb">
+      <a href="https://www.instagram.com/" class="sm-button"target="_blank"><img src="../img/instagramVector.png" width= "20px" alt="instagram">
+      <a href="https://www.linkedin.com/in/vir-wassermann/" class="sm-button"target="_blank"><img src="../img/linkedinVector.png" width="20px" alt="linkedin">  
+      <br>
+      <p class="copyright"> © Copyright 2022 |Virginia Wassermann </p>
+      </div>
+
   </footer>
       
 
