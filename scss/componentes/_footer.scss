@@ -1,0 +1,16 @@
+@import "../base/extend";
+@import "../base/variables";
+
+.footer-estilo{
+    text-decoration: none;
+    color: black;
+}
+.container__footer {
+    background-color: $bg-color;
+    text-align: center;
+    margin: auto;
+    padding: 1rem 1rem 1rem 1rem;
+    text-decoration: none;
+    height: map-get($medicion,alto )
+    
+}

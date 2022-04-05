@@ -1,0 +1,88 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+
+/*INDEX*/
+
+
+/* .rowPrincipal1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    text-align: center;
+    transition: all 2s;
+    padding: 5rem;
+    
+}
+*/
+
+
+/* .rowPrincipal1:hover {
+ transform: scale(1.2);
+}
+
+*/ 
+
+
+/* .rowPrincipal2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    text-align: center;
+}
+*/ 
+
+/*.containerDos{
+    margin: 2rem 2rem 2rem 2rem ;
+    gap: 1rem;
+}
+*/
+
+/* .container__footer {
+    background-color: gray;
+    text-align: center;
+    margin: auto;
+    padding: 1rem 1rem 1rem 1rem;
+    height: auto;
+    text-decoration: none;
+    
+}
+*/
+
+
+/*CONTACTO*/
+
+/*.main{
+    display: flex;
+}
+*/
+/*
+.rowContacto4{
+    display: flex;
+}
+/*
+
+.rowC2{
+    display: flex; 
+    text-align: center; 
+    align-items: center;
+    gap: 2rem;
+}
+/*
+
+.container2{
+    display: flex;
+}
+
+.rowContacto3{
+    margin-left: 2rem;
+}
+
+/*PREG. FRECUENTES*/
+
+
+/*MODALIDAD DE ATENCION*/

@@ -1,0 +1,24 @@
+@import "../base/variables";
+@import "../base/mixin";
+@import "../base/extend";
+
+.main {
+    display: flex;
+}
+
+.rowContacto4 {
+    display:flex
+}
+
+.rowC2 {
+    @extend %ubicacion;
+    gap:  2rem;
+}
+
+.container2{
+    display:flex;
+}
+
+.rowContacto3 {
+    margin-left: 2rem;
+}

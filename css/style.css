@@ -1,76 +1,88 @@
-*{
-    margin: 0%;
-    padding: 0%;
+.rowPrincipal1, .cont-modificado {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
+.rowPrincipal1, .cont-modificado {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
 
-/*INDEX*/
-
-
-.rowPrincipal1{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100px;
-    text-align: center;
-    transition: all 2s;
-    padding: 5rem;
-    
+.rowPrincipal1 {
+  height: 100px;
+  text-align: center;
+  -webkit-transition: all 2s;
+  transition: all 2s;
+  padding: 5rem;
 }
 
 .rowPrincipal1:hover {
- transform: scale(1.2);
-}
-.rowPrincipal2{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 400px;
-    text-align: center;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
 }
 
-.containerDos{
-    margin: 2rem 2rem 2rem 2rem ;
-    gap: 1rem;
+.cont-modificado {
+  height: 400px;
+  text-align: center;
+}
+
+.containerDos {
+  margin: 2rem;
+  padding: 1rem;
+  gap: 1rem;
+}
+
+.copyright {
+  color: black;
+  text-decoration: none;
+}
+
+.about-me {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 2rem;
+  padding: 3rem;
+  padding: 3rem;
+}
+
+.rowPrincipal1, .cont-modificado {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.footer-estilo {
+  text-decoration: none;
+  color: black;
 }
 
 .container__footer {
-    background-color: gray;
-    text-align: center;
-    margin: auto;
-    padding: 1rem 1rem 1rem 1rem;
-    height: auto;
-    text-decoration: none;
-    
+  background-color: gray;
+  text-align: center;
+  margin: auto;
+  padding: 1rem 1rem 1rem 1rem;
+  text-decoration: none;
+  height: 100px;
 }
-
-
-/*CONTACTO*/
-
-.main{
-    display: flex;
-}
-
-.rowContacto4{
-    display: flex;
-}
-
-.rowC2{
-    display: flex; 
-    text-align: center; 
-    align-items: center;
-    gap: 2rem;
-}
-
-.container2{
-    display: flex;
-}
-
-.rowContacto3{
-    margin-left: 2rem;
-}
-
-/*PREG. FRECUENTES*/
-
-
-/*MODALIDAD DE ATENCION*/
+/*# sourceMappingURL=style.css.map */

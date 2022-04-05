@@ -1,0 +1,32 @@
+@import "../base/variables";
+@import "../base/mixin";
+@import "../base/extend";
+@import "../base/map";
+
+
+
+.rowPrincipal1{
+    @extend %ubicacion;
+    height: 100px;
+    text-align: center;
+    transition: all 2s;
+    padding: 5rem;
+    
+}
+
+.rowPrincipal1:hover {
+    transform: scale(1.2);
+}
+
+.cont-modificado{
+    @extend %ubicacion;
+    height: 400px;
+    text-align: center;
+}
+
+
+
+.containerDos{
+    @include margin-padding-gap; 
+}
+

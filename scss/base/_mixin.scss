@@ -1,0 +1,10 @@
+@mixin margin-padding-gap {
+    margin: 2rem;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+@mixin margin-padding {
+    margin: 2rem;
+    padding: 3rem;
+}
