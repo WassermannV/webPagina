@@ -3,6 +3,10 @@
 @import "../base/extend";
 @import "../base/map";
 
+.principal-modificado{
+    display: flex;
+    
+}
 
 
 .rowPrincipal1{
@@ -11,6 +15,8 @@
     text-align: center;
     transition: all 2s;
     padding: 5rem;
+    color: lightsalmon;
+    
     
 }
 
@@ -22,11 +28,26 @@
     @extend %ubicacion;
     height: 400px;
     text-align: center;
+    font-family:'Times New Roman', Times, serif;
+
+
+
 }
-
-
 
 .containerDos{
     @include margin-padding-gap; 
 }
+
+
+.bg-img {
+    height: auto;
+    width: 1000px;
+    margin-left: 10rem;
+}
+
+.pagUno{
+    @include margin-padding;
+}
+
+
 

@@ -1,10 +1,16 @@
 @import "../base/mixin";
 
 
+
+
+
+
 .about-me{
     display: flex;
     @include margin-padding;
     padding: 3rem;
+    justify-content: space-between;
     
 }
+
 
