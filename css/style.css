@@ -65,32 +65,6 @@
   padding: 3rem;
 }
 
-.rowPrincipal1, .cont-modificado, .rowC2 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.footer-estilo {
-  text-decoration: none;
-  color: black;
-}
-
-.container__footer {
-  background-color: lightsalmon;
-  text-align: center;
-  margin: auto;
-  padding: 1rem 1rem 1rem 1rem;
-  text-decoration: none;
-  height: 100px;
-}
-
 .about-me {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -141,6 +115,11 @@
   margin-left: 2rem;
 }
 
+.container__footer a {
+  color: black;
+  text-decoration: none;
+}
+
 .rowPrincipal1, .cont-modificado, .rowC2 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -165,5 +144,10 @@
   padding: 1rem 1rem 1rem 1rem;
   text-decoration: none;
   height: 100px;
+}
+
+.container__footer a {
+  color: black;
+  text-decoration: none;
 }
 /*# sourceMappingURL=style.css.map */
